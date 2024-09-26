@@ -1,0 +1,100 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    div{
+      
+    }
+    form{
+       text-align: center;
+       background: #c4a9a9;
+       width: 50%;
+       padding: 10px;
+       border-radius: 10px;
+       margin-left: auto;
+       margin-right: auto;
+    }
+    .range{
+        margin-left: 300px;
+    }
+</style>
+<body>
+    <form method="">
+       <!--this is a input for username---> 
+        <div>
+        <label for="username">Enter Username</label> <br>
+        <input id="username" type="text" >    
+        </div>
+
+         <!--this is a input for email---> 
+        <div>
+        <label for="email">Enter Email</label> <br>
+        <input id="email" type="email" >    
+        </div>
+        <!-- this input is for selection -->
+        <div>
+            <label for="country">Select State</label> <br>
+            <input id="country" list="countries" type="text"> 
+            <datalist id="countries">
+                <option value="Taraba"></option>
+                <option value="Adamawa"></option>
+                <option value="Bauchi"></option>
+                <option value="Kaduna"></option>
+            </datalist>
+        </div>
+        <select name="" id="">
+            <option value="">Taraba</option>
+            <option value="">Adamawa</option>
+            <option value="">Kaduna</option>
+            <option value="">Gombe</option>
+            <option value="">Lagos</option>
+            <option value="">Abuja</option>
+            <option value="">Zamfara</option>
+            <option value="">Sokoto</option>
+            <option value="">Cross River</option>
+        </select>
+        <div>
+            <label for="male">Male</label> <br>
+            <input id="male" type="checkbox" >
+        </div>
+        <div>
+            <label for="female">Female</label> <br>
+            <input id="female" type="checkbox" >
+        </div>
+        <div>
+            <label for="color">Pick Your Color</label> <br>
+            <input id="color" type="color" >
+        </div>
+        <div>
+            <label for="date">Pick Date</label> <br>
+            <input id="date" type="date" >
+        </div>
+        <div>
+            <label for="number">Enter Number</label> <br>
+            <input type="number" id="number">
+        </div>
+        <div>
+            <label for="tel">Enter Phonenumber</label> <br>
+            <input type="tel" id="tel">
+        </div>
+        <div>
+            <label for="password">Enter password</label> <br>
+            <input type="password" id="password">
+        </div>
+        <div>
+            <label for="image">Enter password</label> <br>
+            <input type="file" id="image">
+        </div>
+        <div class="range">
+            <label for=""></label>
+            <input type="range">
+        </div>
+    </form>
+
+</body>
+</html>
